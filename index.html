@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<form action="#" method="get">
+    <div>
+        <p>Имя</p>
+        <input placeholder="Name" tabindex="1" name="username" type="text">
+    </div>
+    <div>
+        <p>Pass</p>
+        <input tabindex="2" name="userpass" type="password">
+    </div>
+    <div>
+        <p>Tel</p>
+        <input tabindex="3" name="usertel" type="tel">
+    </div>
+    <div>
+        <p>Gen</p>
+        <div>
+            <input tabindex="4" type="radio" name="gender" value="Male"> Male
+        </div>
+        <div>
+            <input tabindex="4" checked type="radio" name="gender" value="Female"> Female
+        </div>
+    </div>
+    <div>
+        <p>Imushescvo</p>
+        <div>
+            <input tabindex="5" checked type="checkbox" name="bike" value="yes">Велик
+        </div>
+        <div>
+            <input tabindex="6" type="checkbox" name="car" value="yes">Mashina
+        </div>
+        <div>
+            <input tabindex="7" disabled type="checkbox" name="house" value="yes">Dom
+        </div>
+    </div>
+    <div>
+        <p>Dop. info</p>
+        <textarea tabindex="8" name="text" ></textarea>
+    </div>
+    <div>
+        <p>Foto</p>
+        <input tabindex="9" type="file">
+    </div>
+    <div>
+        <p>Fav color</p>
+        <select tabindex="10" name="color" >
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+            <option selected value="yellow">Yellow</option>
+        </select>
+    </div>
+    <div>
+        <p>Действия</p>
+        <button tabindex="11" type="submit">Otpraviti</button>
+        <button tabindex="12" type="reset">Ocistit</button>
+    </div>
+</form>
+</body>
+</html>
