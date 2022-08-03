@@ -37,45 +37,56 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /*--------------------*/
-.real {
+body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-.fontsize30 {
-    font-size: 30px;
+.text {
+    color: #333333;
+    line-height: 25px;
 }
-.italic {
-    font-style: italic;
-}
-.font700 {
+.bold {
+    color: #333333;
     font-weight: 700;
 }
-.colorred {
-    color: #f00f00;
+.red {
+    color: #ff0000;
 }
-.textright {
+h1 {
+    font-size: 30px;
+    color: #445161;
+}
+h2 {
+    color: #445161;
+    font-size: 25px;
+}
+h3 {
+    color: #445161;
+    font-size: 20px;
+}
+.right {
+    text-align: right;
+}
+.upper {
+    text-transform: uppercase;
+}
+.allign {
+    font-style: oblique;
+}
+.dec {
+    text-decoration: underline;
+}
+.center {
     text-align: center;
 }
-.decoration {
+.big {
+    font-size: 24px;
+}
+.none {
     text-decoration: line-through;
 }
+.roman {
+    font-family: "Times New Roman";
+}
 .shadow {
-    text-shadow: 1px 1px 10px black;
-}
-.uppercase {
-    text-transform: capitalize;
-}
-.ident {
-    text-indent: 50px;
-}
-.space {
-    letter-spacing: 5px;
-}
-.wspace {
-    word-spacing: 5px;
-}
-.widespace {
-    white-space: nowrap;
-}
-.lheight {
-    line-height: 20px;
+    text-shadow: 1px 1px 5px black;
 }
